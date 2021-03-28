@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="login.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Style.css">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script src="Script.js"></script>
+</head>
+
+<body>
+    <div class="login-content">
+        <label class="login-header">Please Login For Recipes</label>
+        <div class="field-wrapper">
+            <label>
+                <b>Email</b>
+            </label>
+            <input class="email" type="text" id="email" class="fadeIn second" name="login" placeholder="email">
+
+        </div>
+        <div class="field-wrapper">
+            <label>
+                <b>Password</b>
+            </label>
+            <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+        </div>
+        <div class="login-btn">
+            <button class="button" type="button" onclick="login()">Login</button>
+        </div>
+        <button class="button" type="button" onclick="registerlink()">Create New Account</button>
+    </div>
+
+</body>
+
+</html>

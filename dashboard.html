@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="Script.js"></script>
+  <link rel="stylesheet" href="Style.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <img class="logo" src="logo.jpg" alt="Girl in a jacket">
+        <a class="navbar-brand" href="#">Foodies Recipes</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="./login.html"><span class="glyphicon glyphicon-log-in"></span> Log out</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid text-center">
+
+    <h2>Filter Recipes</h2>
+
+    <div id="myBtnContainer">
+      <button class="btn" onclick="filterSelection('all')"> Show all recipes</button>
+      <button class="btn" onclick="filterSelection('cakes')"> Cakes</button>
+      <button class="btn" onclick="filterSelection('biryani')"> biryani</button>
+      <button class="btn" onclick="filterSelection('desserts')"> desserts</button>
+
+    </div>
+
+    <div class="container">
+      <div class="filterDiv cakes">
+        <button type="button" class="btn btn-info bg-color" data-toggle="collapse" data-target="#demo">Chocolate cake
+          recipi</button>
+        <div id="demo" class="collapse">
+          Heat oven to 350°F. Grease and flour two 9-inch round baking pans.
+          Stir together sugar, flour, cocoa, baking powder, baking soda and salt in large bowl.
+          Add eggs, milk, oil and vanilla; beat on medium speed of mixer 2 minutes.
+          Stir in boiling water (batter will be thin). ...
+          Bake 30 to 35 minutes.
+        </div>
+      </div>
+
+      <div class="filterDiv biryani">
+        <button type="button" class="btn btn-info bg-color" data-toggle="collapse" data-target="#demo1">Chicken Biryani
+          recipi</button>
+        <div id="demo1" class="collapse">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+      <div class="filterDiv desserts">
+        <button type="button" class="btn btn-info bg-color" data-toggle="collapse" data-target="#demo2">Banana Cream Pie
+          recipi</button>
+        <div id="demo2" class="collapse">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+      <div class="filterDiv cakes">
+        <button type="button" class="btn btn-info bg-color" data-toggle="collapse" data-target="#demo3">vanilla cake
+          recipi</button>
+        <div id="demo3" class="collapse">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+      <div class="filterDiv desserts">
+        <button type="button" class="btn btn-info bg-color" data-toggle="collapse" data-target="#demo4">Chocolate
+          Custard
+          recipi</button>
+        <div id="demo4" class="collapse">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+      <div class="filterDiv biryani">
+        <button type="button" class="btn btn-info bg-color" data-toggle="collapse" data-target="#demo5">Egg Biryani
+          recipi</button>
+        <div id="demo5" class="collapse">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+      <div class="filterDiv cakes">
+        <button type="button" class="btn btn-info bg-color" data-toggle="collapse" data-target="#demo6">strawberry cake
+          recipi</button>
+        <div id="demo6" class="collapse">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+      <div class="filterDiv biryani">
+        <button type="button" class="btn btn-info bg-color" data-toggle="collapse" data-target="#demo7">Vegetable
+          Biryani
+          recipi</button>
+        <div id="demo7" class="collapse">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+      <div class="filterDiv desserts">
+        <button type="button" class="btn btn-info bg-color" data-toggle="collapse" data-target="#demo8">Gulam Jamun
+          recipi</button>
+        <div id="demo8" class="collapse">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>

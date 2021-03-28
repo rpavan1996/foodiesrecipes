@@ -1,0 +1,25 @@
+.login-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 280px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color:blanchedalmond;
+    
+    }
+    .login-btn {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+.email{
+    margin-left: 29px;
+}
+.field-wrapper{
+    margin: 10px;
+}
+.login-header{
+    font-size: 40px;
+}
